@@ -2,7 +2,10 @@
 
 const elementoParaInserirLivros = document.getElementById('livros');
 
+const elementoComValorTotalLivrosDisponiveis = document.getElementById('valor_total_livros_disponiveis');
+
 function exibirLivrosNaTela(listaDeLivros) {
+  elementoComValorTotalLivrosDisponiveis.innerHTML = '';
   elementoParaInserirLivros.innerHTML = '';
   
   // percorre o array e cria os elementos na tela exibindo os dados do array
