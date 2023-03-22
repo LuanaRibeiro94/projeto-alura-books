@@ -1,6 +1,8 @@
 const elementoParaInserirLivros = document.getElementById('livros');
 
 function exibirLivrosNaTela(listaDeLivros) {
+  elementoParaInserirLivros.innerHTML = '';
+  
   // percorre o array e cria os elementos na tela exibindo os dados do array
   listaDeLivros.forEach(livro => {
     elementoParaInserirLivros.innerHTML += `
