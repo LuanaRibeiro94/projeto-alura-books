@@ -1,3 +1,5 @@
+// Método para filtrar os livros por categoria 
+
 const botoes = document.querySelectorAll('.btn');
 
 botoes.forEach(btn => btn.addEventListener('click', filtrarLivros));

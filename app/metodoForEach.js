@@ -1,3 +1,5 @@
+// Método para exibir os livros na tela
+
 const elementoParaInserirLivros = document.getElementById('livros');
 
 function exibirLivrosNaTela(listaDeLivros) {
